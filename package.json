@@ -11,5 +11,14 @@
   "dependencies": {
     "express": "^4.14.0",
     "socket.io": "^1.4.8"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b4ux1t3/socket.io-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/b4ux1t3/socket.io-practice/issues"
+  },
+  "homepage": "https://github.com/b4ux1t3/socket.io-practice#readme"
 }

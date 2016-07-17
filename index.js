@@ -19,8 +19,6 @@ io.on('connection', function(socket){
     io.emit('chat message', msg);
   })
 
-
-
 });
 
 http.listen(8080, function(){
