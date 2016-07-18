@@ -11,9 +11,18 @@
       #messages { list-style-type: none; margin: 0; padding: 0; }
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #eee; }
+      #nav-bar{list-style-type: none;}
+      #nav-bar li{display: inline;}
     </style>
   </head>
   <body>
+    <div id="nav">
+      <ul id="nav-bar">
+        <li>Home</li>
+        <li>Profile</li>
+      </ul>
+
+    </div>
     <ul id="messages"></ul>
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
@@ -21,6 +30,7 @@
     
     <script src="/socket.io/socket.io.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    
     <script>
       var socket = io();
       $('form').submit(function(){

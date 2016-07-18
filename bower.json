@@ -1,0 +1,21 @@
+{
+  "name": "socketchat",
+  "description": "Prototype chat app",
+  "main": "index.js",
+  "authors": [
+    "Chris P <flippedbauxite@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/b4ux1t3/socket.io-practice",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
